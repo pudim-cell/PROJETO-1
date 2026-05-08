@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Interativo</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="quiz-container">
+
+    <!-- TELA DO QUIZ -->
+    <div id="quiz-box">
+
+      <div class="quiz-header">
+        <h1>Quiz de Tecnologia</h1>
+        <p>Teste seus conhecimentos!</p>
+      </div>
+
+      <div class="quiz-info">
+        <span id="progress"></span>
+        <span id="score">Pontuação: 0</span>
+      </div>
+
+      <div class="question-box">
+        <h2 id="question"></h2>
+      </div>
+
+      <div class="answers" id="answers"></div>
+
+      <div class="buttons">
+        <button id="nextBtn" disabled>Próxima</button>
+      </div>
+
+    </div>
+
+    <!-- TELA DE RESULTADO -->
+    <div id="result-box" class="hidden">
+
+      <h2>Quiz Finalizado 🎉</h2>
+
+      <p id="final-message"></p>
+
+      <button id="restartBtn">Reiniciar Quiz</button>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
