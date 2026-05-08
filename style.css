@@ -74,58 +74,38 @@ body {
 
 .answer-btn {
   padding: 15px;
-  border: 2px solid #dce4f7;
+  border: 2px solid #d1d5db;
   border-radius: 12px;
-  background: #f7f9ff;
+  background: #ffffff;
+  color: #111827;
   cursor: pointer;
-  transition: 0.3s;
+  transition: all 0.25s ease;
   text-align: left;
   font-size: 16px;
+  font-weight: 500;
 }
 
 .answer-btn:hover {
-  background: #dce8ff;
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
   transform: translateY(-2px);
 }
 
 .answer-btn.correct {
-  background: #b8f5c8;
-  border-color: #28a745;
+  background: #16a34a;
+  color: white;
+  border-color: #15803d;
 }
 
 .answer-btn.wrong {
-  background: #ffc9c9;
-  border-color: #dc3545;
+  background: #dc2626;
+  color: white;
+  border-color: #b91c1c;
 }
 
 .answer-btn:disabled {
-  cursor: not-allowed;
-}
-
-.buttons {
-  margin-top: 30px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-button {
-  padding: 12px 24px;
-  border: none;
-  border-radius: 10px;
-  background: #1e3c72;
-  color: black;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-button:hover {
-  background: #2a5298;
-}
-
-button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
+  opacity: 1;
 }
 
 .hidden {
